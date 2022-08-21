@@ -190,43 +190,36 @@ header img
 
 .plat-entrees
 {
-    transform: 1;
     animation: delay 1s;            
 }
 
 .plat-plats
 {
-    transform: 1;
     animation: delay 3s;
 }
 
 .plat-desserts
 {
-    transform: 1;
     animation: delay 5s;
 }
 
 .first
 {
-    transform: 1;
     animation: delay 1s;
 }
 
 .second
 {
-    transform: 1;
     animation: delay 1.6s;
 }
 
 .third
 {
-    transform: 1;
     animation: delay 2.2s;
 }
 
 .fourth
 {
-    transform: 1;
     animation: delay 2.7s;
 }
 
