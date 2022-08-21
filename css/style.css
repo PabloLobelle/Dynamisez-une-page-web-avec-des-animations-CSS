@@ -313,7 +313,7 @@ input
     margin: 4% 5%;
 }
 
-.function__button--text
+.function__button
 {
     display: flex;
     justify-content: space-around;
@@ -334,7 +334,7 @@ input
     left: -18px;
 }
 
-.function__button--text i
+.function__button i
 {
     margin-top: 2px;
     color: #9b9b9b;
@@ -521,7 +521,7 @@ footer a
         
     }
 
-    .function__button--text
+    .function__button
     {
         font-size: 1rem;
     }
