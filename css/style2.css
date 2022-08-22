@@ -351,9 +351,9 @@ footer a
 
     .plat:hover .check
     {
+	width: 40%;
 	max-width: 100px;
-    	width: 40%;
-    	transform: translateX(35%);
+    	transform: translateX(40%);
     	transition-duration: 500ms;
     }
 
