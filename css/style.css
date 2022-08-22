@@ -19,13 +19,14 @@ body
 @keyframes opacity{
     0%{
         opacity: 1;
+        z-index: 99;
     }
 
     90%{
         opacity: 1;
     }
     99%{
-        z-index: 99;
+        
     }
     100%{
         opacity: 0;
@@ -43,7 +44,6 @@ body
     width: 100%;
     background-color: #e3e3e3;
     animation: opacity 3s ease-in-out forwards;
-
 }
 
 .loader
@@ -52,14 +52,12 @@ body
     top: 48%;
     left: 49%;
     z-index: 99;
-
     animation: scale 3s ease-in-out forwards;
 }
 
 .spinner
 {
     animation: rotate 3s ease-in-out;
-    
 }
 
 .ball1, .ball2, .ball3, .ball4
@@ -268,7 +266,6 @@ input
     box-shadow: 0 5px 10px #bcbcbc;
     color: white;
     padding: 6% 0;
-    width: 74%;
 }
 
 .search__restos--button:hover
@@ -311,10 +308,6 @@ input
     border: none;
     box-shadow: 0 5px 10px #e3e3e3;
     margin: 4% 5%;
-}
-
-.function__button
-{
     display: flex;
     justify-content: space-around;
     text-align: center;
@@ -343,7 +336,6 @@ input
 .function__button:hover
 {
     background-color: #e9d6ff;
-    color: #9356DC;
 }
 
 .function__button:hover i
@@ -433,8 +425,9 @@ input
     position: absolute;
     right: 5%;
     z-index: 1;
-    background: linear-gradient(to top, #9356DC, #FF79DA);
+    background: linear-gradient(to top, #FF79DA, #9356DC);
 	-webkit-background-clip: text;
+    background-clip: text;
 	-webkit-text-fill-color: transparent;
 }
 
@@ -442,7 +435,7 @@ input
 {
     color: transparent;
     background-color: transparent;
-    transition: 400ms;
+    transition: 800ms;
 }
 
 
@@ -485,8 +478,8 @@ footer a
     .search__restos--button
     {
         padding: 2% 0;
-        width: 33%;
         margin-bottom: 10%;
+        margin: 0 30% 10%;
     }
 
     .search__restos
@@ -513,19 +506,14 @@ footer a
         flex-wrap: wrap;
     }
 
-    .function-container form
-    {
-        margin: 0 1.5%;
-        width: 30%;
-        min-width: 300px
-        
-    }
-
     .function__button
     {
+        margin: 1.5% 1.5%;
+        width: 30%;
+        min-width: 300px;
         font-size: 1rem;
+        height: 80px;
     }
-
 
 
 /* SECTION RESTAURANTS */

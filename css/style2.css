@@ -93,6 +93,7 @@ header img
     z-index: 1;
     background: -webkit-gradient(linear, left top, left bottom, from(#9356DC), to(#FF79DA));
 	-webkit-background-clip: text;
+    background-clip: text;
 	-webkit-text-fill-color: transparent;
 }
 
@@ -100,7 +101,7 @@ header img
 {
     color: transparent;
     background-color: transparent;
-    transition: 400ms;
+    transition: 800ms;
 }
 
 /* SECTION MENU */
@@ -160,6 +161,7 @@ header img
 	align-items: center;
 	justify-content: center;
     transform: translateX(30px);
+    transition-duration: 500ms;
 }
 
 .check i
@@ -169,19 +171,17 @@ header img
     border-radius: 50%;
     padding: 3px;
     margin-right: 20%;
-    transform: rotate(90deg);
 }
 
 .plat:hover .check
 {
     width: 20%;
     transform: translateX(35%);
-    transition-duration: 500ms;
 }
 
 .plat:hover .check i
 {
-    transform: rotate(360deg);
+    transform: rotate(720deg);
     transition: transform 500ms ease-out;
 }
 
@@ -347,6 +347,13 @@ footer a
     .plat p
     {
         line-height: 1.3rem;
+    }
+
+    .plat:hover .check
+    {
+    width: 40%;
+    transform: translateX(35%);
+    transition-duration: 500ms;
     }
 
 
